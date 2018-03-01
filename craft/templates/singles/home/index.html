@@ -1,0 +1,15 @@
+{% extends "_layout" %}
+{% set title = "Home Page" %}
+
+
+{% block content %}
+	<link rel="stylesheet" href="home.css">
+
+<div class= "feature">
+	<img src={{entry.featureImage}} alt="" height="auto" width="100%"></img>
+	<h1 class= "featureHeadTitle">{{entry.featureHomeTitle}}</h1>
+	<p class= "featureHeadBody">{{entry.featureHomeBody}}</p>
+</div>
+
+
+{% endblock %}
